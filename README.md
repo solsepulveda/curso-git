@@ -1,19 +1,29 @@
 # Comandos de git
 
-1. Comandos para inicializar el proyecto en git
+### Comandos para inicializar el proyecto en git
 
 ```
     git init
 ```
 
-2. Comandos para guardar el proyecto
+### Comandos para "guardar"
 
 ```
 git add .   => los añade área de stagging
+```
+###### Se usa . porque hace referencia a la carpeta en donde estoy, por lo que se guardan los archivos de ésta
+```
+git add -A => agrega absolutamente todos los archivos, no solo los de la carpeta
 ```
 ```
 git commit  =>te los guarda en el repositorio
 ```
 ```
-git push    =>repositorio del server
+git push    =>subir al repositorio
+```
+
+### Comando para ver commits
+
+```
+git log
 ```
